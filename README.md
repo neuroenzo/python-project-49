@@ -3,6 +3,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/327157e5c4bbea22b8dc/maintainability)](https://codeclimate.com/github/neuroenzo/python-project-49/maintainability)
 
-Игра: «Проверка на чётность»
+### Игра: «Проверка на чётность»
 
-https://asciinema.org/a/aVojdeY9qjSZV7ce39r77FUm2
+[![asciicast](https://asciinema.org/a/aVojdeY9qjSZV7ce39r77FUm2.png)](https://asciinema.org/a/aVojdeY9qjSZV7ce39r77FUm2)
