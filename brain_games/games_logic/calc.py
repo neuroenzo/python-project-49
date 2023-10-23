@@ -1,8 +1,6 @@
 import random
 
-
-def describe_game():
-    print('What is the result of the expression?')
+GAME_DESCRIPTION = 'What is the result of the expression?'
 
 
 def prepare_game():

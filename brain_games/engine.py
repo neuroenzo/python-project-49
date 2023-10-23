@@ -3,9 +3,9 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def launch_game(describe_game, prepare_game):
+def launch_game(game_description, prepare_game):
     user_name = welcome_user()
-    describe_game()
+    print(game_description)
 
     for i in range(3):
         answer = prepare_game()

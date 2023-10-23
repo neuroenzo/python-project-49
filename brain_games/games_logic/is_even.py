@@ -1,8 +1,6 @@
 import random
 
-
-def describe_game():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def prepare_game():
