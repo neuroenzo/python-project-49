@@ -10,3 +10,8 @@
 ### Игра: «Калькулятор»
 
 [![asciicast](https://asciinema.org/a/gx0rgHOIggvIKcCOKOS3TiDOW.png)](https://asciinema.org/a/gx0rgHOIggvIKcCOKOS3TiDOW)
+
+### Игра: «Калькулятор»
+
+[![asciicast](https://asciinema.org/a/5A201kHxteqdqVzpCYsnv5eMD.png)](https://asciinema.org/a/5A201kHxteqdqVzpCYsnv5eMD)
+
