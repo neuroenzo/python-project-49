@@ -15,3 +15,6 @@
 
 [![asciicast](https://asciinema.org/a/5A201kHxteqdqVzpCYsnv5eMD.png)](https://asciinema.org/a/5A201kHxteqdqVzpCYsnv5eMD)
 
+### Игра «Арифметическая прогрессия»
+
+[![asciicast](https://asciinema.org/a/dszY2U9viKNnkSyzvL2zHua5a.png)](https://asciinema.org/a/dszY2U9viKNnkSyzvL2zHua5a)
