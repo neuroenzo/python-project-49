@@ -5,12 +5,11 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def launch_game(game_description: str, prepare_game: Callable[[], str]):
+def launch_game(game: Callable[[], str]):
     user_name = welcome_user()
-    print(game_description)
 
     for i in range(3):
-        answer = prepare_game()
+        answer = game()
         user_answer = prompt.string('Your answer: ')
         if answer == user_answer:
             print('Correct')

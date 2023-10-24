@@ -1,10 +1,11 @@
 import random
 
-GAME_DESCRIPTION = 'Answer "yes" if given number is prime.' \
+PRIME_GAME_DESCRIPTION = 'Answer "yes" if given number is prime.' \
                    ' Otherwise answer "no".'
 
 
-def prepare_game() -> str:
+def prepare_prime_game() -> str:
+    print(PRIME_GAME_DESCRIPTION)
     number = random.randint(2, 100)
     print(str('Question: 'f'{number}'))
 

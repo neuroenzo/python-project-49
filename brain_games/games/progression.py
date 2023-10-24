@@ -1,9 +1,10 @@
 import random
 
-GAME_DESCRIPTION = 'What number is missing in the progression?'
+PROGRESSION_GAME_DESCRIPTION = 'What number is missing in the progression?'
 
 
-def prepare_game() -> str:
+def prepare_progression_game() -> str:
+    print(PROGRESSION_GAME_DESCRIPTION)
     start_number = random.randint(1, 100)
     step = random.randint(2, 9)
     dots = '..'

@@ -1,9 +1,10 @@
 import random
 
-GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+GCD_GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def prepare_game() -> str:
+def prepare_gcd_game() -> str:
+    print(GCD_GAME_DESCRIPTION)
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
     print('Question:', f'{number1} {number2}')
