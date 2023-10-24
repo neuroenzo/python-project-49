@@ -1,7 +1,7 @@
 import random
 
-PRIME_GAME_DESCRIPTION = 'Answer "yes" if given number is prime.' \
-                   ' Otherwise answer "no".'
+PRIME_GAME_DESCRIPTION = 'Answer "yes" if given number is prime.'\
+                         'Otherwise answer "no".'
 
 
 def prepare_prime_game() -> str:
