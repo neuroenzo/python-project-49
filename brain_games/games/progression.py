@@ -9,6 +9,7 @@ def prepare_progression_game() -> str:
     step = random.randint(2, 9)
     dots = '..'
     progression = []
+
     count = 0
     while count < 10:
         start_number += step

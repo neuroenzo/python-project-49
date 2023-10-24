@@ -13,4 +13,5 @@ def prepare_gcd_game() -> str:
             number1 %= number2
         else:
             number2 %= number1
+
     return str(number1 + number2)

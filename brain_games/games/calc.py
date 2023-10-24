@@ -9,6 +9,7 @@ def prepare_calc_game() -> str:
     number2 = random.randint(1, 100)
     operation = random.choice(['+', '-', '*'])
     print('Question:', f'{number1} {operation} {number2}')
+
     if operation == '+':
         return str(number1 + number2)
     elif operation == '-':
