@@ -1,7 +1,7 @@
 import random
 
 DESCRIPTION = 'Answer "yes" if the number is even,' \
-                        ' otherwise answer "no".'
+              ' otherwise answer "no".'
 
 
 def is_even_number(random_number: int) -> str:
@@ -14,4 +14,3 @@ def get_question_and_answer() -> tuple:
     answer = is_even_number(question)
 
     return question, answer
-
