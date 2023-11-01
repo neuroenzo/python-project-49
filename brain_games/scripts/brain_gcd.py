@@ -1,9 +1,9 @@
 from brain_games.engine import launch_game
-from brain_games.games.gcd import prepare_gcd_game
+from brain_games.games.gcd import get_question_and_answer, DESCRIPTION
 
 
 def main():
-    launch_game(prepare_gcd_game)
+    launch_game(get_question_and_answer, DESCRIPTION)
 
 
 if __name__ == "__main__":

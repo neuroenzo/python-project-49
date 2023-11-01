@@ -1,10 +1,9 @@
 import random
 
-PROGRESSION_GAME_DESCRIPTION = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def prepare_progression_game() -> str:
-    print(PROGRESSION_GAME_DESCRIPTION)
+def get_question_and_answer() -> tuple:
     start_number = random.randint(1, 100)
     step = random.randint(2, 9)
     dots = '..'
@@ -17,9 +16,8 @@ def prepare_progression_game() -> str:
 
         count += 1
 
-    missing_number = progression[step]
+    answer = progression[step]
     progression[step] = dots
-    new_line = " ".join(map(str, progression))
-    print(str('Question: 'f'{new_line}'))
+    question = " ".join(map(str, progression))
 
-    return str(missing_number)
+    return question, str(answer)
