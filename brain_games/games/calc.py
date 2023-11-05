@@ -1,3 +1,4 @@
+import operator
 import random
 
 DESCRIPTION = 'What is the result of the expression?'
@@ -7,11 +8,11 @@ def calculate_random_values(number1: int,
                             number2: int,
                             operation: str) -> str:
     if operation == '+':
-        return str(number1 + number2)
+        return str(operator.add(number1, number2))
     elif operation == '-':
-        return str(number1 - number2)
+        return str(operator.sub(number1, number2))
     elif operation == '*':
-        return str(number1 * number2)
+        return str(operator.mul(number1, number2))
 
 
 def get_question_and_answer() -> tuple:
