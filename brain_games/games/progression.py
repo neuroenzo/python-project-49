@@ -8,11 +8,10 @@ def get_question_and_answer() -> tuple:
     step = random.randint(2, 9)
     dots = '..'
 
-    progression = list(range(start_number, start_number+(step*10), step))
+    progression = list(range(start_number, start_number + (step * 10), step))
 
     answer = progression[step]
     progression[step] = dots
     question = " ".join(map(str, progression))
 
     return question, str(answer)
-
