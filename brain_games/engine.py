@@ -2,15 +2,17 @@ from typing import Callable
 
 import prompt
 
-from brain_games.cli import welcome_user
+
+GAME_ROUNDS = 3
 
 
 def launch_game(game: Callable[[], tuple], description: str):
-    user_name = welcome_user()
-
+    print('Welcome to the Brain Games!')
+    user_name = prompt.string('May I have your name? ')
+    print(f'Hello, {user_name}!')
     print(description)
 
-    for round_of_game in range(3):
+    for i in range(GAME_ROUNDS):
         question, correct_answer = game()
         print('Question: 'f'{question}')
         user_answer = prompt.string('Your answer: ').lower()
