@@ -1,26 +1,21 @@
 import operator
 import random
 
+
 DESCRIPTION = 'What is the result of the expression?'
-
-
-def calculate_random_values(number1: int,
-                            number2: int,
-                            operation: str) -> str:
-    if operation == '+':
-        return str(operator.add(number1, number2))
-    elif operation == '-':
-        return str(operator.sub(number1, number2))
-    elif operation == '*':
-        return str(operator.mul(number1, number2))
 
 
 def get_question_and_answer() -> tuple:
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
-    operation = random.choice(['+', '-', '*'])
+    operators = [
+        ('+', operator.add),
+        ('-', operator.sub),
+        ('*', operator.mul)
+    ]
+    operation, function = random.choice(operators)
 
     question = f'{number1} {operation} {number2}'
-    answer = calculate_random_values(number1, number2, operation)
+    answer = str(function(number1, number2))
 
     return question, answer
