@@ -8,9 +8,10 @@ def get_question_and_answer() -> tuple:
     step = random.randint(2, 9)
 
     progression_length = 10
+    progression_end = start_number + (step * progression_length)
     progression = list(range(
         start_number,
-        start_number + (step * progression_length),
+        progression_end,
         step)
     )
 
